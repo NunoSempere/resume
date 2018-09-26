@@ -1,0 +1,141 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[english]{babel}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://nunosempere.github.io}{\Large Nu\~{n}o Sempere}} & Email: \href{mailto:nuno.sempere@gmail.com}{nuno.sempere@gmail.com}\\
+  \href{https://nunosempere.github.io}{https://nunosempere.github.io}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad Aut\'onoma de Madrid}{Madrid, Spain}
+      {Bachelor of Mathematics}{2016 -- Present}
+    \resumeSubheading
+      {UNED}{Madrid, Spain}
+      {Bachelor of Philosophy}{2016 -- Present}
+    \resumeSubheading
+      {Languages}{ }
+      {Cambridge Certificate of Proficiency in English}{2014}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {European Summer Programme on Rationality (ESPR)}{}
+      {Counselor}{2017 - Present}
+      \resumeItemListStart
+        \resumeItem{General}
+          {ESPR is a camp for bright students which I helped organize and run for the past 2 years.}
+        \resumeItem{Probability theory}
+          {Taught  \textit{Probability and the case for betting}.}
+      
+      \resumeItemListEnd
+    \resumeSubheading
+      {EA Hotel Blackpool}{ }
+      {Guest}{September 2018}
+      \resumeItemListStart
+        \resumeItem{RCT}
+          {Worked on a randomized controlled trial for ESPR. Mentioned in \textit{The Times}}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Art of Problem Solving}{ }
+      {Grader.}{2018 -- Present}
+      \resumeItemListStart
+              \resumeItem{Feedback-giving}
+          {Graded problems by aspiring math olympiad participants}
+      \resumeItemListEnd
+
+      
+  \resumeSubHeadingListEnd
+
+
+%--------RELEVANT SKILLS------------
+\section{Relevant Skills}
+  \resumeSubHeadingListStart
+   \resumeSubItem{Languages}{C, R $>$ Python $>$ Haskell. Though the language I am most familiar with is C, I can and I have picked up other languages, i.e., R within $\sim$ 1 week, as needed.}
+   \resumeSubItem{Other programs:}{Latex \& Microsoft Excel are not a problem, though I prefer open source programs.}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
